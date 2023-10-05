@@ -1,0 +1,79 @@
+*{
+  max-width: 1440px;
+  max-height: 500px;
+}
+.barra{
+    position: fixed;
+    z-index: 500;
+    display: flex; 
+    align-items: left; 
+    justify-content: left;
+    background-color: #CB5757;
+    width: 101%;
+    height: 50px;
+    top: 0;
+    margin-left: -10px;
+}
+.logo{
+    margin-top: 15px;
+    margin-left: 90px;
+}
+.logo_top_barra{
+    margin-top: 12px;
+    margin-left: -161px;
+}
+.logo_pod{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: black;
+}
+.logo_tiradentes{
+    margin-left: 76%;
+    margin-top: 5px;
+    align-items: right; 
+    justify-content: right;
+}
+#player {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    background-color: #3d3c3c;
+    color: white;
+}
+#controls {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+#player button {
+    background: none;
+    border: none;
+}
+#progress-bar {
+    width: 70%;
+    height: 5px;
+    background-color: #444;
+}
+#progress-bar div {
+    height: 5px;
+    background-color: #e5f7aa;
+}
+#volume-control {
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+#play-pause{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+#time{
+    margin-top: 10px;
+}
